@@ -25,7 +25,7 @@ dependencies:
     version: 1.8.17
   vinxi:
     specifier: ^0.3.11
-    version: 0.3.11(@types/node@20.12.10)
+    version: 0.3.11(@types/node@20.12.11)
 
 devDependencies:
   '@hazmi35/eslint-config':
@@ -35,8 +35,8 @@ devDependencies:
     specifier: ^3.0.7
     version: 3.0.7
   '@types/node':
-    specifier: ^20.12.10
-    version: 20.12.10
+    specifier: ^20.12.11
+    version: 20.12.11
   '@typescript-eslint/eslint-plugin':
     specifier: ^7.8.0
     version: 7.8.0(@typescript-eslint/parser@7.2.0)(eslint@8.57.0)(typescript@5.4.5)
@@ -1617,7 +1617,7 @@ packages:
   /@types/http-proxy@1.17.14:
     resolution: {integrity: sha512-SSrD0c1OQzlFX7pGu1eXxSEjemej64aaNPRhhVYUGqXh0BtldAAx37MG8btcumvpgKyZp1F5Gn3JkktdxiFv6w==}
     dependencies:
-      '@types/node': 20.12.10
+      '@types/node': 20.12.11
     dev: false
 
   /@types/json-schema@7.0.15:
@@ -1630,8 +1630,8 @@ packages:
       '@types/braces': 3.0.4
     dev: false
 
-  /@types/node@20.12.10:
-    resolution: {integrity: sha512-Eem5pH9pmWBHoGAT8Dr5fdc5rYA+4NAovdM4EktRPVAAiJhmWWfQrA0cFhAbOsQdSfIHjAud6YdkbL69+zSKjw==}
+  /@types/node@20.12.11:
+    resolution: {integrity: sha512-vDg9PZ/zi+Nqp6boSOT7plNuthRugEKixDv5sFTIpkE89MmNtEArAShI4mxuX2+UrLEe9pxC1vm2cjm9YlWbJw==}
     dependencies:
       undici-types: 5.26.5
 
@@ -1883,7 +1883,7 @@ packages:
       magicast: 0.2.11
       recast: 0.23.6
       tslib: 2.6.2
-      vinxi: 0.3.11(@types/node@20.12.10)
+      vinxi: 0.3.11(@types/node@20.12.11)
     dev: false
 
   /@vinxi/server-components@0.3.3(vinxi@0.3.11):
@@ -1898,7 +1898,7 @@ packages:
       astring: 1.8.6
       magicast: 0.2.11
       recast: 0.23.6
-      vinxi: 0.3.11(@types/node@20.12.10)
+      vinxi: 0.3.11(@types/node@20.12.11)
     dev: false
 
   /@vinxi/server-functions@0.3.2(vinxi@0.3.11):
@@ -1913,7 +1913,7 @@ packages:
       astring: 1.8.6
       magicast: 0.2.11
       recast: 0.23.6
-      vinxi: 0.3.11(@types/node@20.12.10)
+      vinxi: 0.3.11(@types/node@20.12.11)
     dev: false
 
   /abbrev@1.1.1:
@@ -5252,7 +5252,7 @@ packages:
     resolution: {integrity: sha512-hGdgQozCsQJMyfK5urgFcWEqsSSrK63Awe0t/IMR0bZ0QMtnuaiHzThW81guu3qx9abLi99NEuiaN6P9gVYsNg==}
     dev: false
 
-  /vinxi@0.3.11(@types/node@20.12.10):
+  /vinxi@0.3.11(@types/node@20.12.11):
     resolution: {integrity: sha512-ASEpiwldZIsViv2/ZlO6qnRhDAwxr92nKXxMOinA+5nCY7nlaKgekaLDjTyUmFzB8DSiXVZqmHnd6OZVkn4vzw==}
     hasBin: true
     dependencies:
@@ -5288,7 +5288,7 @@ packages:
       unctx: 2.3.1
       unenv: 1.9.0
       unstorage: 1.10.2(ioredis@5.3.2)
-      vite: 5.1.6(@types/node@20.12.10)
+      vite: 5.1.6(@types/node@20.12.11)
       zod: 3.22.4
     transitivePeerDependencies:
       - '@azure/app-configuration'
@@ -5339,7 +5339,7 @@ packages:
       open: 9.1.0
       picocolors: 1.0.0
       sirv: 2.0.4
-      vite: 5.1.6(@types/node@20.12.10)
+      vite: 5.1.6(@types/node@20.12.11)
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -5361,13 +5361,13 @@ packages:
       merge-anything: 5.1.7
       solid-js: 1.8.17
       solid-refresh: 0.6.3(solid-js@1.8.17)
-      vite: 5.1.6(@types/node@20.12.10)
+      vite: 5.1.6(@types/node@20.12.11)
       vitefu: 0.2.5(vite@5.1.6)
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /vite@5.1.6(@types/node@20.12.10):
+  /vite@5.1.6(@types/node@20.12.11):
     resolution: {integrity: sha512-yYIAZs9nVfRJ/AiOLCA91zzhjsHUgMjB+EigzFb6W2XTLO8JixBCKCjvhKZaye+NKYHCrkv3Oh50dH9EdLU2RA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -5395,7 +5395,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.12.10
+      '@types/node': 20.12.11
       esbuild: 0.19.12
       postcss: 8.4.38
       rollup: 4.13.0
@@ -5411,7 +5411,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 5.1.6(@types/node@20.12.10)
+      vite: 5.1.6(@types/node@20.12.11)
     dev: false
 
   /webidl-conversions@3.0.1:
