@@ -10,7 +10,7 @@ on:
 
 jobs:
   test:
-    uses: kagchi/workflows/.github/workflows/lint-and-build-test.yml@main
+    uses: kagchi/workflows/.github/workflows/lint-and-build-test.yaml@main
     with:
       SKIP_LINT: true
     
