@@ -43,5 +43,6 @@
     "aos": "^2.3.4",
     "solid-js": "^1.8.19",
     "vinxi": "^0.4.1"
-  }
+  },
+  "packageManager": "pnpm@10.14.0"
 }
