@@ -14,7 +14,7 @@
   "license": "GPL-3.0",
   "devDependencies": {
     "@types/aos": "^3.0.7",
-    "@types/node": "^20.14.12",
+    "@types/node": "^22.17.1",
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.40",
     "rimraf": "^6.0.1",
