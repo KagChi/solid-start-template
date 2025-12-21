@@ -24,7 +24,7 @@
   "dependencies": {
     "@solidjs/meta": "^0.29.4",
     "@solidjs/router": "^0.15.4",
-    "@solidjs/start": "^1.2.0",
+    "@solidjs/start": "^1.2.1",
     "@tailwindcss/postcss": "^4.1.18",
     "@tailwindcss/vite": "^4.1.18",
     "aos": "^2.3.4",
