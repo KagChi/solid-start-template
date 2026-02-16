@@ -13,11 +13,11 @@
   "author": "KagChi",
   "license": "GPL-3.0",
   "devDependencies": {
-    "@biomejs/biome": "2.4.0",
+    "@biomejs/biome": "2.4.1",
     "@types/aos": "^3.0.7",
     "@types/node": "^24.10.13",
     "postcss": "^8.5.6",
-    "rimraf": "^6.1.2",
+    "rimraf": "^6.1.3",
     "tailwindcss": "^4.1.18",
     "typescript": "^5.9.3"
   },
