@@ -10,5 +10,5 @@ on:
 
 jobs:
   test:
-    uses: kagchi/workflows/.github/workflows/lint-and-build-test.yaml@main
+    uses: kagchi/workflows/.github/workflows/lint-and-build-test.yaml@04210c09b633e7f3b191ccf5411966728fb40a4e # main
     
