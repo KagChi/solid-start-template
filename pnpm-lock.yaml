@@ -10,13 +10,13 @@ importers:
     dependencies:
       '@solidjs/meta':
         specifier: ^0.29.4
-        version: 0.29.4(solid-js@1.9.14)
+        version: 0.29.4(solid-js@1.9.15)
       '@solidjs/router':
         specifier: ^1.0.0
-        version: 1.0.0(solid-js@1.9.14)
+        version: 1.0.0(solid-js@1.9.15)
       '@solidjs/start':
         specifier: ^1.3.2
-        version: 1.3.2(solid-js@1.9.14)(vinxi@0.5.11(@netlify/blobs@9.1.2)(@types/node@24.13.3)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.43.1)(yaml@2.8.1))(vite@6.4.1(@types/node@24.13.3)(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.43.1)(yaml@2.8.1))
+        version: 1.3.2(solid-js@1.9.15)(vinxi@0.5.11(@netlify/blobs@9.1.2)(@types/node@24.13.3)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.43.1)(yaml@2.8.1))(vite@6.4.1(@types/node@24.13.3)(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.43.1)(yaml@2.8.1))
       '@tailwindcss/postcss':
         specifier: ^4.3.3
         version: 4.3.3
@@ -30,15 +30,15 @@ importers:
         specifier: ^1.3.26
         version: 1.3.26
       solid-js:
-        specifier: ^1.9.14
-        version: 1.9.14
+        specifier: ^1.9.15
+        version: 1.9.15
       vinxi:
         specifier: ^0.5.11
         version: 0.5.11(@netlify/blobs@9.1.2)(@types/node@24.13.3)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.43.1)(yaml@2.8.1)
     devDependencies:
       '@biomejs/biome':
-        specifier: 2.5.8
-        version: 2.5.8
+        specifier: 2.5.9
+        version: 2.5.9
       '@types/aos':
         specifier: ^3.0.8
         version: 3.0.8
@@ -209,59 +209,59 @@ packages:
     resolution: {integrity: sha512-ruv7Ae4J5dUYULmeXw1gmb7rYRz57OWCPM57pHojnLq/3Z1CK2lNSLTCVjxVk1F/TZHwOZZrOWi0ur95BbLxNQ==}
     engines: {node: '>=6.9.0'}
 
-  '@biomejs/biome@2.5.8':
-    resolution: {integrity: sha512-aeAeeJB9fSDc7Gq+2GqpQxA0qBj6gj1k2R6L1cYqGePKP/baIq1WX8y6B+D+nRsO5ViQL22K/8IwbqERW0q1nw==}
+  '@biomejs/biome@2.5.9':
+    resolution: {integrity: sha512-KkgCvdHB4IhtpHpF564plA9jo6fDOwWGQ/3jvreLzgOtRLEDoPqr7QO9qejNA8jKwDsSkAKr77hqBHnyUbIw4g==}
     engines: {node: '>=14.21.3'}
     hasBin: true
 
-  '@biomejs/cli-darwin-arm64@2.5.8':
-    resolution: {integrity: sha512-mk1QON9PHllvvLN5gU3f4rMxeh4syK5p9OvKyWH6/W8ueh04uaC8TUXXByhGufWf/y5mQc03ZLM45zU+cmqMjA==}
+  '@biomejs/cli-darwin-arm64@2.5.9':
+    resolution: {integrity: sha512-am22pX2aBqznqq1eMyIj/bZ++riF3Lk6ct7cbv+gQK0csFhr+d8O0RkOi2FF2qSgFgANbqNkIZ0/PxlnW2pLFg==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [darwin]
 
-  '@biomejs/cli-darwin-x64@2.5.8':
-    resolution: {integrity: sha512-bsGwFMBNyHPyiLSsQcZJxdoRrg1V4JL+d7wEsvUBczlP9U9lwM+7mzQHxI4o1mhBsTmdOBbAb6fHU3Z3snN45w==}
+  '@biomejs/cli-darwin-x64@2.5.9':
+    resolution: {integrity: sha512-l44KWDHLDvEnD0N/XcrVs7VXb3A18xL7QS3WB0eL93wbmk529ffIG55vleGCqaunpRUjLrdnjK05Qki1dsjylg==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [darwin]
 
-  '@biomejs/cli-linux-arm64-musl@2.5.8':
-    resolution: {integrity: sha512-VcJNbstduTHx83NGAdhp78/JOcP45BZHXL7yNsfI1uGzdUgegAz2s+mSoT7wK6PBNzLoqG0zDOXaz/RQYVtSiw==}
+  '@biomejs/cli-linux-arm64-musl@2.5.9':
+    resolution: {integrity: sha512-7ImVPwBLCtkmpR5esd8RHhTqW94f0JLJQum6AneYcy94jRm18TaPPm7slaigGzFhfgt3QiD1Vj52LKmBAnKizA==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@biomejs/cli-linux-arm64@2.5.8':
-    resolution: {integrity: sha512-XmFiA0WPYFC+uiUDC8WRFzAIH9bo7vwQLav38Uoq4ETC+T/+uBi0TsYGJECkugY3r8USl3jc+Ae2/irAF6F2lQ==}
+  '@biomejs/cli-linux-arm64@2.5.9':
+    resolution: {integrity: sha512-ICaK+IYaVZvKbBxX2rwrPT0DdUDMnE9Vm3nQGe+mltQPmUg19pONzkPWGdY4FCsoreDETWDynvdt4ysCbF5gNQ==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@biomejs/cli-linux-x64-musl@2.5.8':
-    resolution: {integrity: sha512-kKmiyokeISRGq2FLwvr+TzsgBusfxaZ0FZNLcOYOpCK/78tRrEjeEBLvq3xLZMpqbANgJdRPI7vZX8ZL37u9/w==}
+  '@biomejs/cli-linux-x64-musl@2.5.9':
+    resolution: {integrity: sha512-RXGaD0o1/pTTguYw1aeDJh9ad6Lfrui0fI7mBderTyGr7WuUJkBIttgLkR3XJyoxOkkgfBDspaUT8wXArTqLZw==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@biomejs/cli-linux-x64@2.5.8':
-    resolution: {integrity: sha512-S5wcm9OBDvLHodD4PUaN488hCpco9QD/9ZxuYJiw4euWtr/oQvLR72z2ixItH8Wd5BCm6FZaeb+YNvOoM1xHtQ==}
+  '@biomejs/cli-linux-x64@2.5.9':
+    resolution: {integrity: sha512-z22Q/zFYSvbIJfW1CbfZPu4X8PddS6Qd2ORbc6h+aT6EcwAxUF3m6fA4HjNvA3TU4X0dTJRwNPB165ES3PJXzg==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@biomejs/cli-win32-arm64@2.5.8':
-    resolution: {integrity: sha512-nILH0mzm3Hi3iEdd7o7GpB8kBR/mSQwfQG/tyBqyNrY2GFtcgwfV9nV8xLmbtUpMNY/Oi0Ml1XgfR4flOdq+AA==}
+  '@biomejs/cli-win32-arm64@2.5.9':
+    resolution: {integrity: sha512-nHK+/HHC+D0ogAHUxomgoSTdjImb6fmNNVTKmf0tyu4eDL1DqPKIHc+i+UL8+b0RnAu8224qo8F2tCVnaT0A3w==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [win32]
 
-  '@biomejs/cli-win32-x64@2.5.8':
-    resolution: {integrity: sha512-I2czzXTY61f3nFJxXoMDq80t7MivxDEnCjE+8sDKoFfcKMaoQdkqhIFQ3KyY0XLzeSpUBYeNAXgD+iOV/BU0VA==}
+  '@biomejs/cli-win32-x64@2.5.9':
+    resolution: {integrity: sha512-Yiq0H56LjXSSw/hd9YkXgSLQfzyDJzbzU2TezozxyNw+uKWAqOtqGVvBfzKRRDiaFF5avGAhHdWKx7LtDOShUw==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [win32]
@@ -3185,8 +3185,8 @@ packages:
   smob@1.5.0:
     resolution: {integrity: sha512-g6T+p7QO8npa+/hNx9ohv1E5pVCmWrVCUzUXJyLdMmftX6ER0oiWY/w9knEonLpnOp6b6FenKnMfR8gqwWdwig==}
 
-  solid-js@1.9.14:
-    resolution: {integrity: sha512-sAEXC0Kk0S1EDg+8ysEWJDbYhA3RRoEjwuySUGlKIemeo0I5YZfOyumNjNs9Sv3y2nmhD+0rW66ag2HsMuQiGQ==}
+  solid-js@1.9.15:
+    resolution: {integrity: sha512-EeiY2xfpZJqPLjXspVEKjAII4yv8NyG//NxZ3IpOFHdUNnnTyL0uJOeS9LWGvA7cFCz5y94cjFwYlmw5Luncsg==}
 
   solid-refresh@0.6.3:
     resolution: {integrity: sha512-F3aPsX6hVw9ttm5LYlth8Q15x6MlI/J3Dn+o3EQyRTtTxidepSTwAYdozt01/YA+7ObcciagGEyXIopGZzQtbA==}
@@ -3941,39 +3941,39 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.27.1
 
-  '@biomejs/biome@2.5.8':
+  '@biomejs/biome@2.5.9':
     optionalDependencies:
-      '@biomejs/cli-darwin-arm64': 2.5.8
-      '@biomejs/cli-darwin-x64': 2.5.8
-      '@biomejs/cli-linux-arm64': 2.5.8
-      '@biomejs/cli-linux-arm64-musl': 2.5.8
-      '@biomejs/cli-linux-x64': 2.5.8
-      '@biomejs/cli-linux-x64-musl': 2.5.8
-      '@biomejs/cli-win32-arm64': 2.5.8
-      '@biomejs/cli-win32-x64': 2.5.8
+      '@biomejs/cli-darwin-arm64': 2.5.9
+      '@biomejs/cli-darwin-x64': 2.5.9
+      '@biomejs/cli-linux-arm64': 2.5.9
+      '@biomejs/cli-linux-arm64-musl': 2.5.9
+      '@biomejs/cli-linux-x64': 2.5.9
+      '@biomejs/cli-linux-x64-musl': 2.5.9
+      '@biomejs/cli-win32-arm64': 2.5.9
+      '@biomejs/cli-win32-x64': 2.5.9
 
-  '@biomejs/cli-darwin-arm64@2.5.8':
+  '@biomejs/cli-darwin-arm64@2.5.9':
     optional: true
 
-  '@biomejs/cli-darwin-x64@2.5.8':
+  '@biomejs/cli-darwin-x64@2.5.9':
     optional: true
 
-  '@biomejs/cli-linux-arm64-musl@2.5.8':
+  '@biomejs/cli-linux-arm64-musl@2.5.9':
     optional: true
 
-  '@biomejs/cli-linux-arm64@2.5.8':
+  '@biomejs/cli-linux-arm64@2.5.9':
     optional: true
 
-  '@biomejs/cli-linux-x64-musl@2.5.8':
+  '@biomejs/cli-linux-x64-musl@2.5.9':
     optional: true
 
-  '@biomejs/cli-linux-x64@2.5.8':
+  '@biomejs/cli-linux-x64@2.5.9':
     optional: true
 
-  '@biomejs/cli-win32-arm64@2.5.8':
+  '@biomejs/cli-win32-arm64@2.5.9':
     optional: true
 
-  '@biomejs/cli-win32-x64@2.5.8':
+  '@biomejs/cli-win32-x64@2.5.9':
     optional: true
 
   '@cloudflare/kv-asset-handler@0.4.0':
@@ -4556,15 +4556,15 @@ snapshots:
 
   '@sindresorhus/merge-streams@2.3.0': {}
 
-  '@solidjs/meta@0.29.4(solid-js@1.9.14)':
+  '@solidjs/meta@0.29.4(solid-js@1.9.15)':
     dependencies:
-      solid-js: 1.9.14
+      solid-js: 1.9.15
 
-  '@solidjs/router@1.0.0(solid-js@1.9.14)':
+  '@solidjs/router@1.0.0(solid-js@1.9.15)':
     dependencies:
-      solid-js: 1.9.14
+      solid-js: 1.9.15
 
-  '@solidjs/start@1.3.2(solid-js@1.9.14)(vinxi@0.5.11(@netlify/blobs@9.1.2)(@types/node@24.13.3)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.43.1)(yaml@2.8.1))(vite@6.4.1(@types/node@24.13.3)(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.43.1)(yaml@2.8.1))':
+  '@solidjs/start@1.3.2(solid-js@1.9.15)(vinxi@0.5.11(@netlify/blobs@9.1.2)(@types/node@24.13.3)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.43.1)(yaml@2.8.1))(vite@6.4.1(@types/node@24.13.3)(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.43.1)(yaml@2.8.1))':
     dependencies:
       '@tanstack/server-functions-plugin': 1.121.21(vite@6.4.1(@types/node@24.13.3)(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.43.1)(yaml@2.8.1))
       '@vinxi/plugin-directives': 0.5.1(vinxi@0.5.11(@netlify/blobs@9.1.2)(@types/node@24.13.3)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.43.1)(yaml@2.8.1))
@@ -4578,10 +4578,10 @@ snapshots:
       seroval-plugins: 1.5.0(seroval@1.5.0)
       shiki: 1.29.2
       source-map-js: 1.2.1
-      terracotta: 1.0.6(solid-js@1.9.14)
+      terracotta: 1.0.6(solid-js@1.9.15)
       tinyglobby: 0.2.14
       vinxi: 0.5.11(@netlify/blobs@9.1.2)(@types/node@24.13.3)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.43.1)(yaml@2.8.1)
-      vite-plugin-solid: 2.11.10(solid-js@1.9.14)(vite@6.4.1(@types/node@24.13.3)(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.43.1)(yaml@2.8.1))
+      vite-plugin-solid: 2.11.10(solid-js@1.9.15)(vite@6.4.1(@types/node@24.13.3)(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.43.1)(yaml@2.8.1))
     transitivePeerDependencies:
       - '@testing-library/jest-dom'
       - solid-js
@@ -5089,12 +5089,12 @@ snapshots:
       parse5: 7.3.0
       validate-html-nesting: 1.2.3
 
-  babel-preset-solid@1.9.9(@babel/core@7.28.3)(solid-js@1.9.14):
+  babel-preset-solid@1.9.9(@babel/core@7.28.3)(solid-js@1.9.15):
     dependencies:
       '@babel/core': 7.28.3
       babel-plugin-jsx-dom-expressions: 0.40.1(@babel/core@7.28.3)
     optionalDependencies:
-      solid-js: 1.9.14
+      solid-js: 1.9.15
 
   balanced-match@1.0.2: {}
 
@@ -6852,24 +6852,24 @@ snapshots:
 
   smob@1.5.0: {}
 
-  solid-js@1.9.14:
+  solid-js@1.9.15:
     dependencies:
       csstype: 3.1.3
       seroval: 1.5.4
       seroval-plugins: 1.5.4(seroval@1.5.4)
 
-  solid-refresh@0.6.3(solid-js@1.9.14):
+  solid-refresh@0.6.3(solid-js@1.9.15):
     dependencies:
       '@babel/generator': 7.28.3
       '@babel/helper-module-imports': 7.27.1
       '@babel/types': 7.28.2
-      solid-js: 1.9.14
+      solid-js: 1.9.15
     transitivePeerDependencies:
       - supports-color
 
-  solid-use@0.9.1(solid-js@1.9.14):
+  solid-use@0.9.1(solid-js@1.9.15):
     dependencies:
-      solid-js: 1.9.14
+      solid-js: 1.9.15
 
   source-map-js@1.2.1: {}
 
@@ -6987,10 +6987,10 @@ snapshots:
       mkdirp: 3.0.1
       yallist: 5.0.0
 
-  terracotta@1.0.6(solid-js@1.9.14):
+  terracotta@1.0.6(solid-js@1.9.15):
     dependencies:
-      solid-js: 1.9.14
-      solid-use: 0.9.1(solid-js@1.9.14)
+      solid-js: 1.9.15
+      solid-use: 0.9.1(solid-js@1.9.15)
 
   terser@5.43.1:
     dependencies:
@@ -7313,14 +7313,14 @@ snapshots:
       - xml2js
       - yaml
 
-  vite-plugin-solid@2.11.10(solid-js@1.9.14)(vite@6.4.1(@types/node@24.13.3)(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.43.1)(yaml@2.8.1)):
+  vite-plugin-solid@2.11.10(solid-js@1.9.15)(vite@6.4.1(@types/node@24.13.3)(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.43.1)(yaml@2.8.1)):
     dependencies:
       '@babel/core': 7.28.3
       '@types/babel__core': 7.20.5
-      babel-preset-solid: 1.9.9(@babel/core@7.28.3)(solid-js@1.9.14)
+      babel-preset-solid: 1.9.9(@babel/core@7.28.3)(solid-js@1.9.15)
       merge-anything: 5.1.7
-      solid-js: 1.9.14
-      solid-refresh: 0.6.3(solid-js@1.9.14)
+      solid-js: 1.9.15
+      solid-refresh: 0.6.3(solid-js@1.9.15)
       vite: 6.4.1(@types/node@24.13.3)(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.43.1)(yaml@2.8.1)
       vitefu: 1.1.1(vite@6.4.1(@types/node@24.13.3)(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.43.1)(yaml@2.8.1))
     transitivePeerDependencies:
