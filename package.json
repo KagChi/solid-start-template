@@ -13,7 +13,7 @@
   "author": "KagChi",
   "license": "GPL-3.0",
   "devDependencies": {
-    "@biomejs/biome": "2.5.12",
+    "@biomejs/biome": "2.5.13",
     "@types/aos": "^3.0.8",
     "@types/node": "^24.13.4",
     "postcss": "^8.5.28",
