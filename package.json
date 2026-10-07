@@ -16,7 +16,7 @@
     "@biomejs/biome": "2.5.15",
     "@types/aos": "^3.0.8",
     "@types/node": "^24.19.1",
-    "postcss": "^8.5.28",
+    "postcss": "^8.5.29",
     "rimraf": "^6.1.3",
     "tailwindcss": "^4.3.3",
     "typescript": "^7.0.2"
@@ -29,7 +29,7 @@
     "@tailwindcss/vite": "^4.3.3",
     "aos": "^2.3.4",
     "lenis": "^1.3.26",
-    "solid-js": "^1.9.15",
+    "solid-js": "^1.9.16",
     "vinxi": "^0.5.11"
   },
   "packageManager": "pnpm@10.34.6"
