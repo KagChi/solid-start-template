@@ -16,7 +16,7 @@
     "@biomejs/biome": "2.6.7",
     "@types/aos": "^3.0.8",
     "@types/node": "^26.6.6",
-    "postcss": "^8.5.32",
+    "postcss": "^8.5.33",
     "rimraf": "^6.1.4",
     "tailwindcss": "^4.3.5",
     "typescript": "^7.0.2"
