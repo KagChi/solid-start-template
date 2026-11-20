@@ -29,7 +29,7 @@
     "@tailwindcss/vite": "^4.3.5",
     "aos": "^2.3.4",
     "lenis": "^1.3.27",
-    "solid-js": "^1.9.19",
+    "solid-js": "^1.9.20",
     "vinxi": "^0.5.11"
   },
   "packageManager": "pnpm@10.34.9"
