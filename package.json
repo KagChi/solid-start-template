@@ -13,9 +13,9 @@
   "author": "KagChi",
   "license": "GPL-3.0",
   "devDependencies": {
-    "@biomejs/biome": "2.6.8",
+    "@biomejs/biome": "2.6.9",
     "@types/aos": "^3.0.8",
-    "@types/node": "^26.6.6",
+    "@types/node": "^26.6.11",
     "postcss": "^8.5.33",
     "rimraf": "^6.1.4",
     "tailwindcss": "^4.3.5",
