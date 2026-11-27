@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@solidjs/meta": "^0.29.8",
-    "@solidjs/router": "^1.0.3",
+    "@solidjs/router": "^2.0.1",
     "@solidjs/start": "^1.5.1",
     "@tailwindcss/postcss": "^4.3.5",
     "@tailwindcss/vite": "^4.3.5",
